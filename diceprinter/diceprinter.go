@@ -1,4 +1,4 @@
-package diceprintger
+package diceprinter
 
 import (
 	"fmt"
