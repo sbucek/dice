@@ -6,7 +6,7 @@ import (
 )
 
 func Roll(sides int) int {
-	return rand.Intn(sides) + 1
+	return -(rand.Intn(sides) + 1)
 }
 
 func Seed(n int64) {

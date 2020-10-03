@@ -6,6 +6,7 @@ import (
 	"github.com/sbucek/dice"
 )
 
-func PrintRoll(sides int, comment string) string {
-	fmt.Printf("%s: %dn", comment, dice.Roll(sides))
+func PrintRoll(sides int, comment string) {
+	fmt.Printf("%s: %d", comment, dice.Roll(sides))
+
 }
